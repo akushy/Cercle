@@ -1,0 +1,69 @@
+html body{
+	background-color: #F8F8F8 ;
+}
+
+h1{
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+h4{
+	padding-top: 10px;
+}
+
+p{
+	padding-bottom: 15px;
+}
+
+.errors{
+	margin: 0;
+	padding: 0;
+}
+
+form ol{
+	margin:0;
+}
+
+div.alert{
+	margin-bottom: 5px;
+}
+
+.btn:first-child{
+	margin: 50px 0;
+}
+
+ol, li{
+	list-style-type: none;
+}
+
+.mb25{
+	margin-bottom: 25px;
+}
+
+.navbar-inverse .nav > li > a.inactive:hover	{
+	color: #999;
+	cursor: default;
+}
+
+ol li.nickname div{
+	display: none;
+}
+
+pre{
+	margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+	h1{
+		padding-top: 0px;
+		font-size: 35px;
+	}
+
+	h4{
+		line-height: 150%;
+	}
+
+	.navbar .brand {
+	    padding-left: 20px;
+	}
+}
